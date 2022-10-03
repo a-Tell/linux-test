@@ -2,7 +2,7 @@
 
 ## Tasks
 ### Connect to the Server
-- [ ] Connect to the server with the IP XXXXX - use the User `cloud_user` and the Password `XXXXX`.
+- [ ] Connect to the server with the IP `XXXXX` - use the User `cloud_user` and the Password `XXXXX`.
 - [ ] Enable SSH to Connect with your Public Key and without a Password.
 
 ### Package Installation
@@ -13,7 +13,7 @@
 - [ ] For the user `cloud_user`, create an alias named `data-tree` for the command `tree /data`. This alias must be persistent.
 
 ### Storage Management
-- There is a Hard Disk available: /dev/nvme1n1
+There is a Hard Disk available: `/dev/nvme1n1`
   - [ ] Create an LVM Volume Group (VG) named `vg-data`, containing this Hard Disk
   - [ ] Create a LVM Logical Volume (LV) named `lv-data` in the VG `vg-data`
   - [ ] Create an XFS Filesystem on the LV `lv-data` in the VG `vg-data`
