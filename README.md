@@ -1,6 +1,13 @@
 # VSHN Apprentice Linux Test for C2
+## Preparations (done by Instructor)
+- [ ] On acloud.guru Playground, create Server:
+  - Distribution: `Ubuntu 20.04 Focal Fossa LTS`
+  - Zone: `Europe`
+  - Size: `Medium`
+- [ ] Login on Server and do initial password change
+- [ ] Hand Server IP, user and password to the apprentice
 
-## Tasks
+## Tasks (done by Apprentice)
 ### Connect to the Server
 - [ ] Connect to the server with the IP `XXXXX` - use the User `cloud_user` and the Password `XXXXX`.
 - [ ] Enable SSH to Connect with your Public Key and without a Password.
