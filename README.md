@@ -5,6 +5,7 @@
   - Zone: `Europe`
   - Size: `Medium`
 - [ ] Login on Server and do initial password change
+- [ ] Add an additional Harddisk `Add /dev/nvme1n1`
 - [ ] Hand Server IP, user and password to the apprentice
 
 ## Tasks (done by Apprentice)
