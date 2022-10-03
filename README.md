@@ -36,12 +36,11 @@
   ```
 
 ### Cronjobs
-Create a cronjob in `/etc/crontab` that executes the following command as `root` every minute:
-```
-date >> /data/www/html/log.txt
-```
-
-(you may use [crontab.guru](https://crontab.guru) as a help)
+- Create a cronjob in `/etc/crontab` that executes the following command as `root` every minute:
+  ```
+  date >> /data/www/html/log.txt
+  ```
+  (you may use [crontab.guru](https://crontab.guru) as a help)
 
 ### Modifying files with `sed`
 - Using the `sed`-command, replace all `VSHN` with `VSHN AG` in the file `/data/www/html/index.html`. Write the command to `/data/www/html/sed-command.txt`.
