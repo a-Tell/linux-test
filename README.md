@@ -23,7 +23,7 @@
 ### Storage Management
 There is a Hard Disk available: `/dev/nvme1n1`
   - [ ] Create an LVM Volume Group (VG) named `vg-data`, containing this Hard Disk
-  - [ ] Create a LVM Logical Volume (LV) named `lv-data` in the VG `vg-data`
+  - [ ] Create a LVM Logical Volume (LV) named `lv-data` in the VG `vg-data`. It should be 500M in size.
   - [ ] Create an XFS Filesystem on the LV `lv-data` in the VG `vg-data`
   - [ ] Mount the LV `lv-data` from the VG `vg-data` persistently at `/data`
 
